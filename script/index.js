@@ -6,4 +6,7 @@ document.getElementById('add-blogs').addEventListener('click', function(){
 document.getElementById('btn-upload').addEventListener('click', function(){
     hideElementById('deshboard')
     showElementById('blogs')
+    blogs()
+    
 })
+
